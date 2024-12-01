@@ -150,5 +150,5 @@ def typing_test():
     # Display bar chart only if at least one test was completed
     display_session_bar_chart(session_results)
 
-if __name__ == "__main__":
-    typing_test()
+# if __name__ == "__main__":
+#     typing_test()
