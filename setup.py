@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="typing_test",
-    version="1.0.0",
+    name="typing-test-sapien",
+    version="3.0.1",
     author="Prasad SDH",
     author_email="prasad@audiomob.com",
     description="A CLI-based typing speed test application",
@@ -17,7 +17,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "typing-test=typing_test.cli:main",  # Links the CLI command to your `main` function
+            "typing-test-sapien=typing_test.cli:main",  # Links the CLI command to your `main` function
         ]
     },
     classifiers=[

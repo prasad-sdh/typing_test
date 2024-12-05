@@ -1,2 +1,1 @@
-include typing_test/config.json
-include typing_test/input_sentences.txt
+include typing_test/*
