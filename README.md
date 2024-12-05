@@ -12,12 +12,20 @@ This Python script allows you to run a typing speed test with customizable param
 
 - Python 3.x
 
-## Usage
+## Installation
 
-To run the script, use the following command:
+Use following command for installation:
 
 ```sh
-python typing_test.py [tests] [sentences_per_test] [blind_mode]
+pip3 install typing-test-sapien
+```
+
+## Usage
+
+Run the following command:
+
+```sh
+typing-test-sapien
 ```
 
 ### Arguments
@@ -29,7 +37,7 @@ python typing_test.py [tests] [sentences_per_test] [blind_mode]
 ### Example
 
 ```sh
-python typing_test.py 3 2 yes
+typing-test-sapien 3 2 yes
 ```
 
 This command runs 3 tests with 2 sentences per test and enables blind mode.
